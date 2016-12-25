@@ -69,6 +69,15 @@ time_format: HH:mm:ss
 per_page: 6 #每页文章6篇
 pagination_dir: page
 
+markdown:
+  gfm: true
+  pedantic: false
+  sanitize: false
+  tables: true
+  breaks: true
+  smartLists: true
+  smartypants: true
+
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
