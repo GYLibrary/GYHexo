@@ -1,6 +1,6 @@
 ---
 title: FMDB
-date: 2015-08-02 20:30:16
+date: 2015-10-22 20:30:16
 categories: OC
 tags: [数据库] 
 description: SQLite是一种小型的轻量级的关系型数据库，在移动设备上使用是非常好的选择，无论是Android还是IOS，都内置了SQLite数据库，现在的版本都是SQLite3。在IOS中使用SQLite如果使用SDK提供的方法，感觉使用很不方便，今天就讲讲一个针对IOS的SQlite API封装的第三方库FMDB，FMDB对SDK中的API做了一层封装，使之使用OC来访问，使用方便而且更熟悉。
