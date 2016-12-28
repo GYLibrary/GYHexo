@@ -1,8 +1,7 @@
 ---
 title: Swift & the Objective-C Runtime
-categories: 
 tags: [Runtime] 
-description:Method swizzling 用于改变一个已经存在的 selector 的实现。这项技术使得在运行时通过改变 selector 在类的消息分发列表中的映射从而改变方法的掉用成为可能
+description: Method swizzling 用于改变一个已经存在的 selector 的实现。这项技术使得在运行时通过改变 selector 在类的消息分发列表中的映射从而改变方法的掉用成为可能
 ---
 
 # Swift & the Objective-C Runtime

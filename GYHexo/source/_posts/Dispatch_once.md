@@ -1,9 +1,9 @@
 ---
 title: Dispatch once in Swift 3
-date: 2016-8-25 20:18:16
-categories: Swift 3.0
-tags: [Swift] 
-description:记录Swift 3.0 中 Dispatch once的修改，这里提供两个类似于此功能的方法
+date: 2016-09-22 20:50:16
+categories: swift
+tags: [多线程] 
+description: 记录Swift 3.0 中 Dispatch once的修改，这里提供两个类似于此功能的方法
 ---
 
 ## Dispatch once in Swift 3
