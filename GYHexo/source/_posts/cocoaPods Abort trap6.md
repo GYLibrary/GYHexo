@@ -1,9 +1,11 @@
 ---
-title: Abort trap: 6
+title: Abort trap:6
+date: 2016-12-30 21:39:26
 categories: cocoaPods
 tags: [cocoaPods] 
-description: 在mac系统升级到了10.12.2之后，使用cocoaPods发生生了Abort trap: 6问题，本文记录了解决方案
+description: 在mac系统升级到了10.12.2之后，使用cocoaPods发生生了Abort trap6问题，本文记录了解决方案
 ---
+
 # Abort trap: 6
 
 ## 使用Cocoapods提示错误 Abort trap: 6 解决方法
@@ -46,6 +48,7 @@ gem install cocoapods --pre
 ```
 
 发生如下错误
+
 ```
 ERROR:  While executing gem ... (Errno::EACCES)
     Permission denied @ rb_sysopen - /usr/local/lib/ruby/gems/2.3.0/gems/xcodeproj-1.4.2/LICENSE
