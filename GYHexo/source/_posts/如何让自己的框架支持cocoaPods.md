@@ -111,6 +111,17 @@ pod lib lint 或者 pod lib lint --allow-warnings
 pod trunk push [NAME].podspec 或者 pod lib lint --allow-warnings
 ```
 
+如果有如此类的错误输出
+
+```
+[!] The spec did not pass validation, due to 3 warnings (but you can use `--allow-warnings` to ignore them).
+```
+使用如下命令行即可解决
+
+```
+pod lib lint --allow-warnings
+```
+
 最后成功后控制台输出
 
 ```
