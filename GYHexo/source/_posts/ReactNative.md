@@ -15,3 +15,10 @@ description: React Native使你能够在Javascript和React的基础上获得完�
 > 2.kill -9 pid 
 > 
 > 3.重启Xcode
+
+## 组件生命周期
+
+![Snip20170227_7.png](http://upload-images.jianshu.io/upload_images/2082481-11326e2016028ba1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
+
