@@ -281,6 +281,7 @@ spring注入之后耦合度降低
 
 [易百](http://www.yiibai.com/hibernate/hibernate_query_language.html)
 
+[Demo](https://github.com/GYJava/SSHDemo)
 
 
 
