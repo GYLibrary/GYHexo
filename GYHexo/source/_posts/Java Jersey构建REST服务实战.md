@@ -274,5 +274,6 @@ http://localhost:8081/Java_Jersey/rest/UserInfoService/getUserInfo
 ![Snip20170327_3.png](http://upload-images.jianshu.io/upload_images/2082481-1e73d5641290aa7d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
-  
-  
+ ## 参考链接
+ 
+ [SSH的web项目中加入jersey框架实现web service](http://blog.csdn.net/cb2474600377/article/details/44309777)
