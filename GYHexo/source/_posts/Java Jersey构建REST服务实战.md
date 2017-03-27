@@ -15,7 +15,7 @@ description: 由于要做移动端和服务端传递数据，对Java接口也不
 
 * 在Eclipse中创建一个“dynamic web project”（动态web工程） ，项目名设为 “Java_Jersey”。
 * 下载[Jersey](https://jersey.java.net/download.html)
-* 添加Jersey里面所有jar问价到lib文件包中。
+* 添加Jersey里面所有jar问价到lib文件包中。(此处需要导入jackson-all-1.9.11.jar(解决Json解析异常)，放到lib下。)
 如下图:
 ![Snip20170327_2.png](http://upload-images.jianshu.io/upload_images/2082481-7c1c9fb0dc5160a1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
