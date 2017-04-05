@@ -21,7 +21,7 @@ double 64位浮点型-->
 # Day 1
 
 ## Myql 数据库建立
-
+* mysql.server start(启动数据库)
 * mysql -u root -p（打开数据库）
 * show databases; （显示已有数据库）
 * create database estoresystem;(创建数据库estoresystem)
