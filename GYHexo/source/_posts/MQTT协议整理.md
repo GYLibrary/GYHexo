@@ -4,7 +4,7 @@ date:
 categories: MQTT
 tags: [MQTT] 
 description: MQTT是IBM开源的一种通讯协议，专门针对低带宽和不稳定网络环境的物联网应用设计，为方便查阅和有需要的同仁学习，特记录。
-
+---
 # MQTT协议
 
 ## MQTT控制报文的类型
