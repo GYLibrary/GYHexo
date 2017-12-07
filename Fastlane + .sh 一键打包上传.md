@@ -2,65 +2,63 @@
 title: Fastlane + .sh 一键打包上传
 date: 2016-11-7 19:28:16
 categories: iOS
-tags: [iOS] 
+tags: [持续集成] 
 description: 本文记录iOS的持续化集成
 ---
-
 # Fastlane + .sh 一键打包上传
+一键打包,持续集成
 
-> 一键打包,持续集成
 ## Fastlane的安装、使用
 
-
-1.  首先检查是否已经安装最新版的 Xcode 命令行工具，运行 xcode-select --install 命令，根据你的情况进行不同处理。
+1. 首先检查是否已经安装最新版的 Xcode 命令行工具，运行 xcode-select --install 命令，根据你的情况进行不同处理。
 2. 安装 fastlane ，这里使用 brew cask 管理工具对 fastlane 进行安装
 
    ```
    $ brew cask install fastlane
    ```
-   
 3. 如果没有安装 brew cask ，运行上面命令会先安装 brew cask 工具
 
    ```
    $ Creating Caskroom at /usr/local/Caskroom
    ```
-   
 4. 重新安装
 
    ```
    $ brew cask reinstall fastlane
    ```
-   
 5. 在项目目录下，对项目进行初始化。
 
 	```
 	$ fastlane init //在 init 过程中会出现 登录开发者账号，输入密码和选中 Targets 类似的交互
 	```
-	
-6. 重新安装
-
+6.重新安装 
 	```
 	$ brew cask reinstall fastlane
 	```
-7. 卸载和安装相对应
+7.卸载和安装相对应
 
   ```
   $ brew cask uninstall fastlane
   ```
 
+    
+
+
 ### 一键自动化打包并上传到fir.m
 	
 1.安装fir-cil
-
 ```
  gem install fir-cli
 ```
 2.登录[fir.im](https://fir.im/)
-
 登录指令非常简单，只需要fir login API Token，这里面的API Token就是你fir帐号下的API Token，然后通过fir me查看你是否登录成功.
 
 ```
 终端登录:fir login API Token
+```
+	
+	
+```
 脚本:
 #!/bin/bash
 #设置超时 export 
@@ -119,7 +117,6 @@ fir publish ${ipa_path} -T "XXX_YOUR_API_TOKEN_XXX" -c "${commit_msg}"
 echo "===Finished. Total time: ${SECONDS}s==="
 
 ```
-
 
 
 

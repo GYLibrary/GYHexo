@@ -1,8 +1,8 @@
 ---
-title: UITableView滑动 cell消失
+title: iOS开发ARC内存管理
 date: 2015-02-22 21:15:16
 categories: iOS
-tags: [iOS] [内存管理]
+tags: [iOS]
 description: ARC的学习与总结
 ---
 # iOS开发ARC内存管理
