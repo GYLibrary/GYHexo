@@ -16,6 +16,7 @@ description: 本文记录iOS开源资源,以及学习社区,为进阶助力。
 [cnblogs](http://www.cnblogs.com/kenshincui/)
 [美团技术点评团队](https://tech.meituan.com)
 [NoBB开发圈](http://bbs.thankbabe.com/)
+[2017Winner](https://github.com/blog/2483-game-off-2017-winners)
 ----------
 
 [onevcat](https://onev.cat/zh/)
@@ -35,6 +36,7 @@ description: 本文记录iOS开源资源,以及学习社区,为进阶助力。
 *动画实现
 [VCTransitionsLibrary](https://github.com/ColinEberhardt/VCTransitionsLibrary)
 [转场动画](https://github.com/seedante/iOS-ViewController-Transition-Demo)
+[解压缩.car文件](https://github.com/tunnyios/cartool)
 ### swift开发资源
 [ServerApis](https://swift.org/server-apis/)
 [SwipeBack](https://github.com/devxoul/SwipeBack)
